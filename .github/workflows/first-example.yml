@@ -6,6 +6,9 @@ jobs:
     fist_job: 
         runs-on: ubuntu-latest
         steps:
+        - name: Checkout Repo
+          uses: actions/checkout@v4
+
         - name: welcome meassage
           run: echo "my fisrt github action job"
 
