@@ -14,14 +14,7 @@ jobs:
 
     - name: Excecuting Shell Script
       run: |
-        chmod +x pradeepgowda1999/action1/.github/workflows/ascii-script.sh
-        ./pradeepgowda1999/action1/.github/workflows/ascii-script.sh
+        chmod +x ascii-script.sh
+        ./ascii-script.sh
         
 
-
-
-   # - name: List files
-   #    run: ls
-
-   # - name: Read file
-   #   run: cat README.md    
