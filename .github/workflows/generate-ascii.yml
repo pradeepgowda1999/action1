@@ -15,13 +15,13 @@ jobs:
         - name: Excecute cowsay CMD
           run:  cowsay -f dragon "Run for cover, I am a Dragon ....RAWR" >> dragon.tx
 
-        - name: Test file exists
-          run: grep -i "Dragon" dragon.txt
+        - name: Test File Exists
+          run: grep -i "dragon" dragon.txt
 
-        - name: Readfile
+        - name: Read File
           run: cat dragon.txt
           
-        - name: chList repo files
+        - name: List repo files
           run: ls -lrta
 
    
