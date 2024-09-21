@@ -31,7 +31,7 @@ jobs:
         run: cat dragon.txt
 
       - name: Deploy
-        run: echo deploying the application.
+        run: echo deploying the application..
 
 
         
