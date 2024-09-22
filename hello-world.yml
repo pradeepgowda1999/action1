@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu latest
     steps:
     - name: echo text
-      run: echo "Hello World"
+      run: echo hello world
